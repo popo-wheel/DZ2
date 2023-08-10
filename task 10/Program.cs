@@ -7,4 +7,4 @@
  Console.WriteLine($"Случайное число из диапазона 100 - 999 -> {number}");
 
 int secondDigit = (number / 10) % 10;
-Console.WriteLine("Вторая цифра числа," +secondDigit);
+Console.WriteLine("Вторая цифра числа, " +secondDigit);

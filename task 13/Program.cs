@@ -4,12 +4,49 @@
 // 32679 -> 6
 
 int number = new Random().Next(0, 100000);
-Console.WriteLine($"Случайное число из диапазона от 100 до бесконечности -> {number}");
-int thirdDigit = number % 10;
-int result = thirdDigit;
+Console.WriteLine($"Случайноe число из диапазона от 0 до бесконечности -> {number}");
 
-if (number < 100);
- Console.WriteLine("Число двузначное");
-if
- (number > 100);
- Console.Write(thirdDigit);
+//  if (number < 100);
+//     Console.WriteLine("Третьей цифры нет");
+
+//  while (number > 999)
+//          number = (number / 10);
+//          number = (number % 10);
+//         Console.WriteLine(number);
+
+if (number <= 99)
+{
+    Console.WriteLine("Третьего числа нет");
+}
+else
+{
+    while (number > 999)
+    number = (number / 10);
+    number = (number %10);
+    Console.WriteLine(number);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int result = thirdDigit;
+
+// if (number < 100);
+//  Console.WriteLine("Число двузначное");
+// if
+//  (number > 100);
+//  Console.Write(thirdDigit);
+
